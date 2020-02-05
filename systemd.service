@@ -7,7 +7,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-ExecStart=@PREFIX@/bin/go-simple-http-server /usr/bin/go-simple-http-server -www /usr/share/go-simple-http-server/www
+ExecStart=/usr/bin/go-simple-http-server -www /usr/share/go-simple-http-server/www
 
 [Install]
 WantedBy=multi-user.target
