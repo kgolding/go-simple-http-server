@@ -1,0 +1,13 @@
+[Unit]
+Description=Simple Golang HTTP server
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=user
+ExecStart=@PREFIX@/bin/go-simple-http-server
+
+[Install]
+WantedBy=multi-user.target
