@@ -1,0 +1,4 @@
+config BR2_PACKAGE_GO_SIMPLE_HTTP_SERVER
+        bool "go-simple-http-server"
+        help
+          Super simple go http server to prove golang apps can be built with buildroot
