@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-GO_SIMPLE_HTTP_SERVER_VERSION = 0.4
+GO_SIMPLE_HTTP_SERVER_VERSION = 0.5
 GO_SIMPLE_HTTP_SERVER_SITE = $(call github,kgolding,go-simple-http-server,$(GO_SIMPLE_HTTP_SERVER_VERSION))
 GO_SIMPLE_HTTP_SERVER_LICENSE = MIT
 GO_SIMPLE_HTTP_SERVER_LICENSE_FILES = LICENSE
